@@ -22,7 +22,8 @@ const SignUpScreen = () => {
         style={styles.input}
       />
       <Text style={styles.label}>Password</Text>
-      <TextInput value={psw} onChangeText={setPsw} style={styles.input} />
+      <TextInput value={psw} onChangeText={setPsw} style={styles.input} secureTextEntry />
+
       <Button text="Sign in" onPress={onSubmit} />
       <Link href="/sign-in" style={styles.textButton}>
         Sing in

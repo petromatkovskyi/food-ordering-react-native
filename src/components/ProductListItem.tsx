@@ -1,5 +1,5 @@
 import { StyleSheet, Text, Image, Pressable, Dimensions } from 'react-native'
-import Colors from '../constants/Colors'
+import Colors from '@/constants/Colors'
 import { Product } from '../types'
 import { Link, useSegments } from 'expo-router'
 
